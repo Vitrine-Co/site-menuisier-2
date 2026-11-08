@@ -1,0 +1,11 @@
+node_modules/
+.vscode/
+.taste-skill/
+shots/
+claude.md
+CLAUDE.md
+contexte-*.md
+*.log
+Thumbs.db
+desktop.ini
+.DS_Store

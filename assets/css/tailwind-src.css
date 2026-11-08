@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-wood-900: #20242b;
+  --color-wood-800: #2a2f38;
+  --color-wood-700: #3f4550;
+  --color-wood-600: #5b6168;
+  --color-wood-500: #7a818c;
+
+  --color-cream-100: #efede6;
+  --color-cream-200: #e4e0d4;
+
+  --color-accent: #2b6684;
+  --color-accent-2: #b23b2e;
+
+  --font-display: "Big Shoulders Display", sans-serif;
+  --font-sans: "Archivo", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}

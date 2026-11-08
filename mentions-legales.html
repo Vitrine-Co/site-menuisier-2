@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mentions légales — L'Atelier du Bois</title>
+  <meta name="description" content="Mentions légales, politique de confidentialité et conditions générales de vente de L'Atelier du Bois, menuisier artisan." />
+  <meta name="robots" content="noindex, follow" />
+
+  <!-- Tailwind CSS compilé (voir package.json / npm run build:css) -->
+  <link rel="stylesheet" href="assets/css/tailwind.css" />
+
+  <!-- Styles custom -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="antialiased">
+
+  <!-- ===================== HEADER SIMPLIFIÉ ===================== -->
+  <header class="py-6 bg-wood-900">
+    <div class="max-w-5xl mx-auto px-6 flex items-center justify-between">
+      <a href="index.html" class="font-display text-2xl text-cream-100 tracking-wide">
+        L'Atelier<span class="text-accent">.</span>
+      </a>
+      <a href="index.html" class="text-cream-200/70 text-sm footer-link">&larr; Retour au site</a>
+    </div>
+  </header>
+
+  <!-- ===================== CONTENU ===================== -->
+  <main class="bg-cream-100 py-20 md:py-28">
+    <div class="max-w-3xl mx-auto px-6">
+      <p class="tag-label mb-4">Informations légales</p>
+      <h1 class="font-display text-4xl md:text-5xl text-wood-900 mb-12">Mentions légales</h1>
+
+      <article class="space-y-12 text-wood-700 leading-relaxed">
+        <section>
+          <h2 class="font-display text-2xl text-wood-900 mb-4">Éditeur du site</h2>
+          <p>
+            L'Atelier du Bois — entreprise artisanale de menuiserie<br />
+            Forme juridique : [Entreprise individuelle / SARL / SAS]<br />
+            Siège social : 12 rue de l'Artisanat, 81580 Soual<br />
+            SIRET : [000 000 000 00000]<br />
+            Numéro de TVA intracommunautaire : [FR00 000000000]<br />
+            Directeur de la publication : Julien Mercier<br />
+            Téléphone : 01 23 45 67 89<br />
+            Email : contact@latelierdubois.fr
+          </p>
+        </section>
+
+        <section>
+          <h2 class="font-display text-2xl text-wood-900 mb-4">Hébergement</h2>
+          <p>
+            Ce site est hébergé par : [Nom de l'hébergeur]<br />
+            Adresse : [Adresse de l'hébergeur]<br />
+            Téléphone : [Téléphone de l'hébergeur]
+          </p>
+        </section>
+
+        <section>
+          <h2 class="font-display text-2xl text-wood-900 mb-4">Propriété intellectuelle</h2>
+          <p>
+            L'ensemble des contenus présents sur ce site (textes, photographies, illustrations, logos) est la propriété exclusive de L'Atelier du Bois, sauf mention contraire. Toute reproduction, distribution ou utilisation sans autorisation écrite préalable est interdite.
+          </p>
+        </section>
+
+        <section id="confidentialite">
+          <h2 class="font-display text-2xl text-wood-900 mb-4">Politique de confidentialité</h2>
+          <p class="mb-4">
+            Les informations collectées via le formulaire de contact (nom, email, téléphone, message) sont utilisées exclusivement pour répondre à votre demande de devis et ne sont transmises à aucun tiers.
+          </p>
+          <p class="mb-4">
+            Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi « Informatique et Libertés », vous disposez d'un droit d'accès, de rectification, de suppression et d'opposition aux données vous concernant. Pour exercer ce droit, contactez-nous à l'adresse contact@latelierdubois.fr.
+          </p>
+          <p>
+            Ce site peut utiliser des cookies techniques nécessaires à son bon fonctionnement. Aucun cookie publicitaire ou de traçage tiers n'est déposé sans votre consentement.
+          </p>
+        </section>
+
+        <section id="cgv">
+          <h2 class="font-display text-2xl text-wood-900 mb-4">Conditions générales de vente</h2>
+          <p class="mb-4">
+            Tout devis établi par L'Atelier du Bois est gratuit et sans engagement. Les prestations font l'objet d'un devis détaillé accepté par le client avant le démarrage des travaux de conception et de fabrication.
+          </p>
+          <p>
+            Les délais de fabrication et de pose sont communiqués à titre indicatif lors de l'établissement du devis et peuvent varier selon la complexité du projet et la disponibilité des matériaux.
+          </p>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="bg-wood-900 border-t border-cream-100/10 py-10">
+    <div class="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-cream-200/50 text-center sm:text-left">
+      <p>&copy; <span id="current-year"></span> L'Atelier du Bois — Tous droits réservés.</p>
+      <a href="index.html" class="footer-link">Retour à l'accueil</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
